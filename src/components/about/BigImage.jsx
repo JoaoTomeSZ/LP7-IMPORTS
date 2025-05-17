@@ -1,4 +1,4 @@
-import banner from "/camisasBrasil.PNG"
+import banner from "/bannerImage.jpg"
 
 const BigImage = () => {
   return (
