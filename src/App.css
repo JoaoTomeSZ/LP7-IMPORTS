@@ -6,4 +6,9 @@
 body{
   background-color: #000;
   font-family: "Montserrat";
+  
+}
+
+html{
+scroll-behavior: smooth;
 }
