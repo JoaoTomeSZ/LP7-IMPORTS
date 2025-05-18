@@ -4,6 +4,7 @@ import BigImage from './BigImage'
 import Sells from './Sells'
 import Slide from './Slide'
 import "./About.css"
+import LargeScrenSlide from './LargeScreenSlide'
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
               <Sells/>
         </div>
         <div className=' max-w-full pt-5 justify-center'>
-              <BigImage/>
+              <LargeScrenSlide/>
             </div>
       </div>
         <Slide/>

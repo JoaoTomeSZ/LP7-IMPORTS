@@ -7,7 +7,7 @@ import arsenal from "/arsenal.jpeg"
 import inter from "/inter.jpeg"
 import psg from "/psg.jpeg"
 
-const Slide = () => {
+const LargeScrenSlide = () => {
   const images = [
     arsenal,
     inter,
@@ -15,7 +15,7 @@ const Slide = () => {
   ];
 
   return (
-    <div className="lg:hidden flex w-full h-full">
+    <div className="max-w-[400px] h-full justify-end">
       <Swiper
         modules={[Navigation, Pagination]}
         loop={true}
@@ -37,4 +37,4 @@ const Slide = () => {
   );
 }
 
-export default Slide
+export default LargeScrenSlide
