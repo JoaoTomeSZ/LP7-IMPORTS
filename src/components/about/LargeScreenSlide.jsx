@@ -15,7 +15,7 @@ const LargeScrenSlide = () => {
   ];
 
   return (
-    <div className="max-w-[400px] h-full justify-end">
+    <div className="lg:flex hidden max-w-[400px] h-full justify-end">
       <Swiper
         modules={[Navigation, Pagination]}
         loop={true}
