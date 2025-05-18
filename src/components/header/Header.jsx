@@ -1,4 +1,5 @@
 import ContactButton from "./ContactButton"
+import DropDownMenu from "./DropDownMenu"
 import HeaderLogo from "./HeaderLogo"
 import Nav from "./Nav"
 
@@ -9,6 +10,7 @@ const Header = () => {
           <HeaderLogo/>
           <Nav/>
           <ContactButton/>
+          <DropDownMenu/>
           </div>
     </div>
   )

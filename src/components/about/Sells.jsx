@@ -1,23 +1,24 @@
-import camisaCBFpreta from "/camisaCBFpreta.jpg";
-import camisaCBFlado from "/camisaCBFlado.jpg";
+import arsenal from "/arsenal.jpeg"
+import inter from "/inter.jpeg"
+import psg from "/psg.jpeg"
 
 const Sells = () => {
   return (
     <div className="flex lg:flex-row flex-col max-w-full w-full lg:justify-around justify-evenly lg:items-start items-center px-2 lg:gap-0 gap-4">
       <img
-        src={camisaCBFpreta}
+        src={psg}
         alt=""
-        className="h-[300px] w-[300px] rounded-2xl"
+        className="h-[350px] w-[300px] rounded-2xl object-fill"
       />
       <img
-        src={camisaCBFlado}
+        src={inter}
         alt=""
-        className="h-[300px] w-[300px] rounded-2xl"
+        className="h-[350px] w-[300px] rounded-2xl object-fill"
       />
       <img
-        src={camisaCBFlado}
+        src={arsenal}
         alt=""
-        className="h-[300px] w-[300px] rounded-2xl"
+        className="h-[350px] w-[300px] rounded-2xl object-fill"
       />
     </div>
   );
