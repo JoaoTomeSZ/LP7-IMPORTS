@@ -14,7 +14,7 @@ const Slide = () => {
     psg
   ];
   return (
-    <div className="w-full h-full">
+    <div className="lg:hidden flex w-full h-full">
       <Swiper
         modules={[Navigation, Pagination]}
         loop={true}
