@@ -1,24 +1,14 @@
-import React from 'react'
-import AboutText from './AboutText'
-import BigImage from './BigImage'
-import Sells from './Sells'
-import Slide from './Slide'
 import "./About.css"
-import LargeScrenSlide from './LargeScreenSlide'
+import AboutText from "./AboutText"
+import banner from "/banner.jpg"
 
 const About = () => {
   return (
-    <div id='sobre' className='min-h-screen h-full max-w-full w-full p-5 justify-center items-center flex flex-wrap scroll-mt-20'>
-      <div className='flex lg:flex-row flex-col w-full h-full'>
-        <div className='flex-col max-h-full h-full items-end justify-between max-w-full w-full flex-wrap'>
-              <AboutText/>
-              <Sells/>
-        </div>
-        <div className=' max-w-full pt-5 justify-center'>
-              <LargeScrenSlide/>
-            </div>
+    <div id='sobre' className='min-h-screen h-full max-w-full w-full justify-center items-center flex flex-col flex-wrap scroll-mt-40 gap-10'>
+      <div className="flex md:flex-row flex-col w-full max-w-full justify-center lg:justify-around items-center text-center gap-5 p-5">
+      <AboutText/>
+      <img className="lg:w-[450px] lg:h-full md:h-[400px] max-w-full h-[300px] object-cover rounded-4xl " src={banner} alt="" />
       </div>
-        <Slide/>
     </div>
   )
 }

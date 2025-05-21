@@ -1,16 +1,22 @@
 import './App.css'
-import About from './components/about/About'
-import Header from './components/header/Header'
-import Hero from './components/Hero/Hero'
+import GaleryPage from './pages/GaleryPage'
+import InitialPage from './pages/InitialPage'
+import {Suspense} from "react"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 
 
   return (
     <>
-      <Header/>
-      <Hero/>
-      <About/>
+      <Suspense  fallback={<h1>Loading...</h1>} >
+    <Router>
+      <Routes >
+        <Route path="/" element={<InitialPage/>} />
+        <Route path="/Galeria" element={<GaleryPage/>}/> 
+      </Routes>
+    </Router>
+    </Suspense>
     </>
   )
 }

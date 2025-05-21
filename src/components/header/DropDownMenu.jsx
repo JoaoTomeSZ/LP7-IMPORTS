@@ -1,5 +1,6 @@
 import { MdArrowDropDown } from "react-icons/md";
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 
 const DropDownMenu = () => {
 
@@ -16,7 +17,7 @@ const DropDownMenu = () => {
               <a href="#inicio" className="block px-4 py-2">Início</a>
               <a href="#sobre" className="block px-4 py-2">Sobre</a>
               <a href="#faleComigo" className="block px-4 py-2">Fale comigo!</a>
-              <a href="#contatos" className="block px-4 py-2">Contatos</a>
+              <Link to="/Galeria" className="block px-4 py-2">Contatos</Link>
             </div>
           </div>
         )}

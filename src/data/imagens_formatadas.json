@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "time": "São Paulo",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/saoPaulo24-25.jpeg"
+  },
+  {
+    "id": 2,
+    "time": "Fluminense",
+    "descricao": "brasileirao",
+    "temporada": "2025/2026",
+    "arquivo": "/camisas/fluminense25-26.jpeg"
+  },
+  {
+    "id": 3,
+    "time": "Grêmio",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/gremio24-25.jpeg"
+  },
+  {
+    "id": 4,
+    "time": "Vasco",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/vasco24-25.jpeg"
+  },
+  {
+    "id": 5,
+    "time": "Fluminense",
+    "descricao": "brasileirao",
+    "temporada": "2025/2026",
+    "arquivo": "/camisas/fluminense2-25-26.jpeg"
+  },
+  {
+    "id": 6,
+    "time": "Grêmio",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/gremio2-24-25.jpeg"
+  },
+  {
+    "id": 7,
+    "time": "Corinthians",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/corinthians24-25.jpeg"
+  },
+  {
+    "id": 8,
+    "time": "Cruzeiro",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/cruzeiro24-25.jpeg"
+  },
+  {
+    "id": 9,
+    "time": "Recife",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/recife24-25.jpeg"
+  },
+  {
+    "id": 10,
+    "time": "Botafogo",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/botafogo24-25.jpeg"
+  },
+  {
+    "id": 11,
+    "time": "Atlético Mineiro",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/atleticoMineiro24-25.jpeg"
+  },
+  {
+    "id": 12,
+    "time": "Fluminense",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/fluminense2-24-25.jpeg"
+  },
+  {
+    "id": 13,
+    "time": "Atlético Mineiro"	,
+    "descricao": "brasileirao",
+    "temporada": "2025/2026",
+    "arquivo": "/camisas/atleticoMineiro25-26.jpeg"
+  },
+  {
+    "id": 14,
+    "time": "Vasco",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/vasco2-24-25.jpeg"
+  },
+  {
+    "id": 15,
+    "time": "Santos",
+    "descricao": "brasileirao",
+    "temporada": "20None/20None",
+    "arquivo": "/camisas/santos25-26.jpeg"
+  },
+  {
+    "id": 16,
+    "time": "Santos",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/santos24-25.jpeg"
+  },
+  {
+    "id": 17,
+    "time": "Recife",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/recife2-24-25.jpeg"
+  },
+  {
+    "id": 18,
+    "time": "inter",
+    "descricao": "brasileirao",
+    "temporada": "20None/20None",
+    "arquivo": "/camisas/inter25-26.jpeg"
+  },
+  {
+    "id": 19,
+    "time": "Bahia",
+    "descricao": "brasileirao",
+    "temporada": "20None/20None",
+    "arquivo": "/camisas/bahia25-26.jpeg"
+  },
+  {
+    "id": 20,
+    "time": "Santos",
+    "descricao": "brasileirao",
+    "temporada": "2025/2026",
+    "arquivo": "/camisas/santos2-25-26.jpeg"
+  },
+  {
+    "id": 21,
+    "time": "Corinthians",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/corinthians2-24-25.jpeg"
+  },
+  {
+    "id": 22,
+    "time": "Cruzeiro",
+    "descricao": "brasileirao",
+    "temporada": "2025/2026",
+    "arquivo": "/camisas/cruzeiro25-26.jpeg"
+  },
+  {
+    "id": 23,
+    "time": "Bahia",
+    "descricao": "brasileirao",
+    "temporada": "2025/2026",
+    "arquivo": "/camisas/bahia2-25-26.jpeg"
+  },
+  {
+    "id": 24,
+    "time": "Fluminense",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/fluminense3-24-25.jpeg"
+  },
+  {
+    "id": 25,
+    "time": "Botafogo",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/botafogo2-24-25.jpeg"
+  },
+  {
+    "id": 26,
+    "time": "inter",
+    "descricao": "brasileirao",
+    "temporada": "2024/2025",
+    "arquivo": "/camisas/inter24-25.jpeg"
+  },
+  {
+    "id": 27,
+    "time": "Bahia",
+    "descricao": "brasileirao",
+    "temporada": "2025/2026",
+    "arquivo": "/camisas/bahia3-25-26.jpeg"
+  },
+  {
+    "id": 28,
+    "time": "São Paulo",
+    "descricao": "brasileirao",
+    "temporada": "20None/20None",
+    "arquivo": "/camisas/saoPaulo25-26.jpeg"
+  }
+]
