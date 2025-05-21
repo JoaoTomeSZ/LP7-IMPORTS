@@ -17,7 +17,7 @@ const DropDownMenu = () => {
               <a href="#inicio" className="block px-4 py-2">Início</a>
               <a href="#sobre" className="block px-4 py-2">Sobre</a>
               <a href="#faleComigo" className="block px-4 py-2">Fale comigo!</a>
-              <Link to="/Galeria" className="block px-4 py-2">Contatos</Link>
+              <Link to="/Galeria" className="block px-4 py-2">Galeria</Link>
             </div>
           </div>
         )}
