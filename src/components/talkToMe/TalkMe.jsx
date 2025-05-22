@@ -21,8 +21,7 @@ const TalkMe = () => {
     }
 
   return (
-        <div className='flex justify-center items-center max-w-full w-full'>
-
+        <div className='flex items-left justify-start max-w-full w-full lg:p-0 p-4'>
             <form onSubmit={sendMessage} className="space-y-8 max-w-md mx-auto p-5 border rounded-xl shadow-md  bg-gradient-to-t from-black/5 to-[#e5a0209c]">
               <h1 className='text-3xl font-semibold text-white text-left'>Faça seu pedido!</h1>
       <input

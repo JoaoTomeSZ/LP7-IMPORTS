@@ -4,8 +4,8 @@ import TalkToMeText from './TalkToMeText'
 
 const TalkToMe = () => {
   return (
-    <div id='faleComigo' className='min-h-screen max-w-full flex justify-center'>
-        <div className='flex max-w-full w-full justify-between items-center'>
+    <div id='faleComigo' className='min-h-screen h-full max-w-full flex '>
+        <div className='flex sm:flex-row flex-col-reverse max-w-full w-full md:items-center items-center p-5'>
             <TalkMe/>
             <TalkToMeText/>
         </div>
