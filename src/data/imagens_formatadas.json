@@ -57,7 +57,7 @@
   },
   {
     "id": 9,
-    "time": "Recife",
+    "time": "Sport",
     "descricao": "brasileirao",
     "temporada": "2024/2025",
     "arquivo": "/camisas/recife24-25.jpeg"
@@ -113,14 +113,14 @@
   },
   {
     "id": 17,
-    "time": "Recife",
+    "time": "Sport",
     "descricao": "brasileirao",
     "temporada": "2024/2025",
     "arquivo": "/camisas/recife2-24-25.jpeg"
   },
   {
     "id": 18,
-    "time": "inter",
+    "time": "Inter",
     "descricao": "brasileirao",
     "temporada": "20None/20None",
     "arquivo": "/camisas/inter25-26.jpeg"
@@ -176,7 +176,7 @@
   },
   {
     "id": 26,
-    "time": "inter",
+    "time": "Inter",
     "descricao": "brasileirao",
     "temporada": "2024/2025",
     "arquivo": "/camisas/inter24-25.jpeg"
