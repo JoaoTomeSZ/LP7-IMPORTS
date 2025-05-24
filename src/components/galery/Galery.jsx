@@ -3,14 +3,14 @@ import shirts from "../../data/imagens_formatadas.json";
 
 const Gallery = () => {
   const [searchText, setSearchText] = useState("");
-  const [categoryFilter, setCategoryFilter] = useState("all");
+  const [categoryFilter, setCategoryFilter] = useState("Todas");
   const [currentPage, setCurrentPage] = useState(1);
   const [alphabeticalOrder, setAlphabeticalOrder] = useState(false);
   const shirtsPerPage = 10;
 
   let filteredShirts = shirts.filter((shirt) => {
     const matchesText = shirt.time.toLowerCase().includes(searchText.toLowerCase());
-    const matchesCategory = categoryFilter === "all" || shirt.descricao === categoryFilter;
+    const matchesCategory = categoryFilter === "Todas" || shirt.descricao === categoryFilter;
     return matchesText && matchesCategory;
   });
 
@@ -41,7 +41,7 @@ const Gallery = () => {
 
       <div className="flex flex-wrap gap-2 mb-4">
         {[
-          "all",
+          "Todas",
           "brasileirao",
           "internacionais"
         ].map((type) => (
@@ -51,7 +51,7 @@ const Gallery = () => {
               setCategoryFilter(type);
               setCurrentPage(1);
             }}
-            className="bg-gray-300 hover:bg-gray-400 px-4 py-2 rounded min-w-[120px] text-center"
+            className="bg-[#E5A020] hover:bg-gray-400 px-4 py-2 rounded min-w-[120px] text-center cursor-pointer"
           >
             {type.charAt(0).toUpperCase() + type.slice(1)}
           </button>
@@ -59,7 +59,7 @@ const Gallery = () => {
 
         <button
           onClick={() => setAlphabeticalOrder(!alphabeticalOrder)}
-          className="bg-blue-400 hover:bg-blue-500 px-4 py-2 rounded min-w-[120px] text-center"
+          className="bg-gray-200 hover:bg-gray-400 px-4 py-2 rounded min-w-[120px] text-center cursor-pointer"
         >
           {alphabeticalOrder ? "Ordem Original" : "Ordenar A-Z"}
         </button>

@@ -263,7 +263,7 @@
     "time": "Ac Milan",
     "descricao": "internacionais",
     "temporada": "25/26",
-    "arquivo": "/camisas/2526ACMilan.jpeg"
+    "arquivo": "/camisas/2526ACMilan.jpg"
   },
   {
     "id": 39,
@@ -392,13 +392,6 @@
     "arquivo": "/camisas/2526RBLeipzig.jpg"
   },
   {
-    "id": 57,
-    "time": "Rb Leipzig",
-    "descricao": "internacionais",
-    "temporada": "25/26",
-    "arquivo": "/camisas/2526RBLeipzig.jpg"
-  },
-  {
     "id": 58,
     "time": "Real Madrid Special Edition",
     "descricao": "internacionais",
@@ -427,13 +420,6 @@
     "arquivo": "/camisas/arsenal2-24-25.jpeg"
   },
   {
-    "id": 62,
-    "time": "Arsenal",
-    "descricao": "internacionais",
-    "temporada": "24/25",
-    "arquivo": "/camisas/arsenal3-24-25.jpeg"
-  },
-  {
     "id": 63,
     "time": "Arsenal",
     "descricao": "internacionais",
@@ -452,14 +438,14 @@
     "time": "Barcelona",
     "descricao": "internacionais",
     "temporada": "25/26",
-    "arquivo": "/camisas/2526Barcelona2.jpeg"
+    "arquivo": "/camisas/barcelona2425.jpeg"
   },
   {
     "id": 66,
     "time": "Barcelona",
     "descricao": "internacionais",
     "temporada": "24/25",
-    "arquivo": "/camisas/2526BarcelonaSpecialEdition.jpg"
+    "arquivo": "/camisas/barcelona2526.jpeg"
   },
   {
     "id": 67,
@@ -533,13 +519,6 @@
   },
   {
     "id": 77,
-    "time": "Real Madrid",
-    "descricao": "internacionais",
-    "temporada": "20/25",
-    "arquivo": "/camisas/realmadrid2025.jpeg"
-  },
-  {
-    "id": 78,
     "time": "Real Madrid",
     "descricao": "internacionais",
     "temporada": "24/25",

@@ -23,7 +23,7 @@ const FeedBackCards = () => {
   ];
 
   return (
-    <div className="flex md:flex-row flex-col gap-4 items-center p-4 max-w-full lg:mt-0 mt-40">
+    <div className="flex md:flex-row flex-col gap-4 items-center p-4 max-w-full  mt-40">
       {feedbacks.map((item, index) => (
         <div
           key={index}
