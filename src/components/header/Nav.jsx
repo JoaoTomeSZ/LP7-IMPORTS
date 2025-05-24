@@ -2,8 +2,8 @@ import { IoHomeSharp, IoAlertCircleOutline, IoLogoWhatsapp } from "react-icons/i
 
 const Nav = () => {
 
-    const NavItems = ["Início", "Sobre", "Fale comigo!"]
-    const conectors = ["#inicio", "#sobre", "#faleComigo"]
+    const NavItems = ["Início", "Sobre", "Contatos"]
+    const conectors = ["#inicio", "#sobre", "#contatos"]
     const icons = [<IoHomeSharp/>, <IoAlertCircleOutline/>, <IoLogoWhatsapp/>]
     
   return (
