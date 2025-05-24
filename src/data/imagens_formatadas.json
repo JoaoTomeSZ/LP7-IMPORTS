@@ -3,196 +3,546 @@
     "id": 1,
     "time": "São Paulo",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/saoPaulo24-25.jpeg"
   },
   {
     "id": 2,
     "time": "Fluminense",
     "descricao": "brasileirao",
-    "temporada": "2025/2026",
+    "temporada": "25/26",
     "arquivo": "/camisas/fluminense25-26.jpeg"
   },
   {
     "id": 3,
     "time": "Grêmio",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/gremio24-25.jpeg"
   },
   {
     "id": 4,
     "time": "Vasco",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/vasco24-25.jpeg"
   },
   {
     "id": 5,
     "time": "Fluminense",
     "descricao": "brasileirao",
-    "temporada": "2025/2026",
+    "temporada": "25/26",
     "arquivo": "/camisas/fluminense2-25-26.jpeg"
   },
   {
     "id": 6,
     "time": "Grêmio",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/gremio2-24-25.jpeg"
   },
   {
     "id": 7,
     "time": "Corinthians",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/corinthians24-25.jpeg"
   },
   {
     "id": 8,
     "time": "Cruzeiro",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/cruzeiro24-25.jpeg"
   },
   {
     "id": 9,
     "time": "Sport",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/recife24-25.jpeg"
   },
   {
     "id": 10,
     "time": "Botafogo",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/botafogo24-25.jpeg"
   },
   {
     "id": 11,
     "time": "Atlético Mineiro",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/atleticoMineiro24-25.jpeg"
   },
   {
     "id": 12,
     "time": "Fluminense",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/fluminense2-24-25.jpeg"
   },
   {
     "id": 13,
-    "time": "Atlético Mineiro"	,
+    "time": "Atlético Mineiro",
     "descricao": "brasileirao",
-    "temporada": "2025/2026",
+    "temporada": "25/26",
     "arquivo": "/camisas/atleticoMineiro25-26.jpeg"
   },
   {
     "id": 14,
     "time": "Vasco",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/vasco2-24-25.jpeg"
   },
   {
     "id": 15,
     "time": "Santos",
     "descricao": "brasileirao",
-    "temporada": "20None/20None",
+    "temporada": "25/26",
     "arquivo": "/camisas/santos25-26.jpeg"
   },
   {
     "id": 16,
     "time": "Santos",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/santos24-25.jpeg"
   },
   {
     "id": 17,
     "time": "Sport",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/recife2-24-25.jpeg"
   },
   {
     "id": 18,
     "time": "Inter",
     "descricao": "brasileirao",
-    "temporada": "20None/20None",
+    "temporada": "25/26",
     "arquivo": "/camisas/inter25-26.jpeg"
   },
   {
     "id": 19,
     "time": "Bahia",
     "descricao": "brasileirao",
-    "temporada": "20None/20None",
+    "temporada": "25/26",
     "arquivo": "/camisas/bahia25-26.jpeg"
   },
   {
     "id": 20,
     "time": "Santos",
     "descricao": "brasileirao",
-    "temporada": "2025/2026",
+    "temporada": "25/26",
     "arquivo": "/camisas/santos2-25-26.jpeg"
   },
   {
     "id": 21,
     "time": "Corinthians",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/corinthians2-24-25.jpeg"
   },
   {
     "id": 22,
     "time": "Cruzeiro",
     "descricao": "brasileirao",
-    "temporada": "2025/2026",
+    "temporada": "25/26",
     "arquivo": "/camisas/cruzeiro25-26.jpeg"
   },
   {
     "id": 23,
     "time": "Bahia",
     "descricao": "brasileirao",
-    "temporada": "2025/2026",
+    "temporada": "25/26",
     "arquivo": "/camisas/bahia2-25-26.jpeg"
   },
   {
     "id": 24,
     "time": "Fluminense",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/fluminense3-24-25.jpeg"
   },
   {
     "id": 25,
     "time": "Botafogo",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/botafogo2-24-25.jpeg"
   },
   {
     "id": 26,
     "time": "Inter",
     "descricao": "brasileirao",
-    "temporada": "2024/2025",
+    "temporada": "24/25",
     "arquivo": "/camisas/inter24-25.jpeg"
   },
   {
     "id": 27,
     "time": "Bahia",
     "descricao": "brasileirao",
-    "temporada": "2025/2026",
+    "temporada": "25/26",
     "arquivo": "/camisas/bahia3-25-26.jpeg"
   },
   {
     "id": 28,
     "time": "São Paulo",
     "descricao": "brasileirao",
-    "temporada": "20None/20None",
+    "temporada": "25/26",
     "arquivo": "/camisas/saoPaulo25-26.jpeg"
+  },
+  {
+    "id": 29,
+    "time": "Arsenal",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425Arsenal.jpeg"
+  },
+  {
+    "id": 30,
+    "time": "Atlanta",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425Atlanta.jpeg"
+  },
+  {
+    "id": 31,
+    "time": "Bayern Munich Special Edition",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425BayernMunichSpecialEdition.jpeg"
+  },
+  {
+    "id": 32,
+    "time": "Bayern Munich",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425BayernMunich.jpeg"
+  },
+  {
+    "id": 33,
+    "time": "Manchester City",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425ManchesterCity.jpeg"
+  },
+  {
+    "id": 34,
+    "time": "Newcastle",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425Newcastle.jpeg"
+  },
+  {
+    "id": 35,
+    "time": "Sevilla",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425Sevilla.jpeg"
+  },
+  {
+    "id": 36,
+    "time": "Villarreal",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2425Villarreal.jpeg"
+  },
+  {
+    "id": 37,
+    "time": "Ac Milan",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526ACMilan.jpeg"
+  },
+  {
+    "id": 38,
+    "time": "Ac Milan",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526ACMilan.jpeg"
+  },
+  {
+    "id": 39,
+    "time": "Atletico Madrid",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526AtleticoMadrid.jpg"
+  },
+  {
+    "id": 40,
+    "time": "Barcelona",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Barcelona2.jpeg"
+  },
+  {
+    "id": 41,
+    "time": "Barcelona Special Edition",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526BarcelonaSpecialEdition.jpg"
+  },
+  {
+    "id": 42,
+    "time": "Barcelona",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Barcelona.jpeg"
+  },
+  {
+    "id": 43,
+    "time": "Bayern Munich 125Th Anniversary",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526BayernMunich125thAnniversary.jpg"
+  },
+  {
+    "id": 44,
+    "time": "Benfica Special Edition",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526BenficaSpecialEdition.jpg"
+  },
+  {
+    "id": 45,
+    "time": "Celtics",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Celtics.jpeg"
+  },
+  {
+    "id": 46,
+    "time": "Colo Colo",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526ColoColo.jpeg"
+  },
+  {
+    "id": 47,
+    "time": "Dortmund Special Edition",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526DortmundSpecialEdition.jpeg"
+  },
+  {
+    "id": 48,
+    "time": "Flamengo Special Edition",
+    "descricao": "brasileirao",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526FlamengoSpecialEdition.jpeg"
+  },
+  {
+    "id": 49,
+    "time": "Inter Milan",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526InterMilan.jpeg"
+  },
+  {
+    "id": 50,
+    "time": "Miami Third",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526MiamiThird.jpg"
+  },
+  {
+    "id": 51,
+    "time": "Miami",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Miami.jpeg"
+  },
+  {
+    "id": 52,
+    "time": "Newcastle",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Newcastle.jpeg"
+  },
+  {
+    "id": 53,
+    "time": "Peñarol",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526PeñarolBlack.jpeg"
+  },
+  {
+    "id": 54,
+    "time": "Peñarol",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Peñarol.jpeg"
+  },
+  {
+    "id": 55,
+    "time": "Player Tottenham",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526PlayerTottenham.jpeg"
+  },
+  {
+    "id": 56,
+    "time": "Rb Leipzig",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526RBLeipzig.jpg"
+  },
+  {
+    "id": 57,
+    "time": "Rb Leipzig",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526RBLeipzig.jpg"
+  },
+  {
+    "id": 58,
+    "time": "Real Madrid Special Edition",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526RealMadridSpecialEdition.jpeg"
+  },
+  {
+    "id": 59,
+    "time": "Real Madrid",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526RealMadrid.jpeg"
+  },
+  {
+    "id": 60,
+    "time": "Tottenham",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Tottenham.jpeg"
+  },
+  {
+    "id": 61,
+    "time": "Arsenal",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/arsenal2-24-25.jpeg"
+  },
+  {
+    "id": 62,
+    "time": "Arsenal",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/arsenal3-24-25.jpeg"
+  },
+  {
+    "id": 63,
+    "time": "Arsenal",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/arsenal24-25.jpeg"
+  },
+  {
+    "id": 64,
+    "time": "Barcelona",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2526Barcelona.jpeg"
+  },
+  {
+    "id": 65,
+    "time": "Barcelona",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/2526Barcelona2.jpeg"
+  },
+  {
+    "id": 66,
+    "time": "Barcelona",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/2526BarcelonaSpecialEdition.jpg"
+  },
+  {
+    "id": 67,
+    "time": "Camisa De Treino Barcelona",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/camisatreinobarcelona2425.jpeg"
+  },
+  {
+    "id": 68,
+    "time": "Chelsea",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/chelsea2526.jpeg"
+  },
+  {
+    "id": 69,
+    "time": "Chelsea",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/chelsea2526.jpg"
+  },
+  {
+    "id": 70,
+    "time": "Manchester City",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/Manchestercity2425.jpeg"
+  },
+  {
+    "id": 71,
+    "time": "Manchester United",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/ManchesterUnited2425.jpeg"
+  },
+  {
+    "id": 72,
+    "time": "Manchester United",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/ManchesterUnited2526.jpeg"
+  },
+  {
+    "id": 73,
+    "time": "Manchester United",
+    "descricao": "internacionais",
+    "temporada": "25/26",
+    "arquivo": "/camisas/ManchesterUnited2526(2).jpeg"
+  },
+  {
+    "id": 74,
+    "time": "Psg",
+    "descricao": "internacionais",
+    "temporada": "21/22",
+    "arquivo": "/camisas/psg2122.jpg"
+  },
+  {
+    "id": 75,
+    "time": "Psg",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/psg3-24-25.jpeg"
+  },
+  {
+    "id": 76,
+    "time": "Psg",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/psg24-25.jpeg"
+  },
+  {
+    "id": 77,
+    "time": "Real Madrid",
+    "descricao": "internacionais",
+    "temporada": "20/25",
+    "arquivo": "/camisas/realmadrid2025.jpeg"
+  },
+  {
+    "id": 78,
+    "time": "Real Madrid",
+    "descricao": "internacionais",
+    "temporada": "24/25",
+    "arquivo": "/camisas/real24-25.jpeg"
   }
 ]

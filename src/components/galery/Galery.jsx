@@ -5,13 +5,18 @@ const Gallery = () => {
   const [searchText, setSearchText] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [currentPage, setCurrentPage] = useState(1);
+  const [alphabeticalOrder, setAlphabeticalOrder] = useState(false);
   const shirtsPerPage = 10;
 
-  const filteredShirts = shirts.filter((shirt) => {
+  let filteredShirts = shirts.filter((shirt) => {
     const matchesText = shirt.time.toLowerCase().includes(searchText.toLowerCase());
     const matchesCategory = categoryFilter === "all" || shirt.descricao === categoryFilter;
     return matchesText && matchesCategory;
   });
+
+  if (alphabeticalOrder) {
+    filteredShirts.sort((a, b) => a.time.localeCompare(b.time));
+  }
 
   const totalPages = Math.ceil(filteredShirts.length / shirtsPerPage);
   const startIndex = (currentPage - 1) * shirtsPerPage;
@@ -34,26 +39,39 @@ const Gallery = () => {
         className="p-2 border rounded mb-4 w-full text-white"
       />
 
-      <div className="flex gap-2 mb-4">
-        {["all", "brasileirao", "internacionais"].map((type) => (
+      <div className="flex flex-wrap gap-2 mb-4">
+        {[
+          "all",
+          "brasileirao",
+          "internacionais"
+        ].map((type) => (
           <button
             key={type}
             onClick={() => {
               setCategoryFilter(type);
               setCurrentPage(1);
             }}
-            className="bg-gray-300 hover:bg-gray-400 px-4 py-2 rounded"
+            className="bg-gray-300 hover:bg-gray-400 px-4 py-2 rounded min-w-[120px] text-center"
           >
             {type.charAt(0).toUpperCase() + type.slice(1)}
           </button>
         ))}
+
+        <button
+          onClick={() => setAlphabeticalOrder(!alphabeticalOrder)}
+          className="bg-blue-400 hover:bg-blue-500 px-4 py-2 rounded min-w-[120px] text-center"
+        >
+          {alphabeticalOrder ? "Ordem Original" : "Ordenar A-Z"}
+        </button>
       </div>
 
       <div className="grid lg:grid-cols-5 gap-4">
         {visibleShirts.map((shirt) => (
           <div key={shirt.id} className="text-center flex flex-col justify-center items-center">
             <p className="text-center text-white text-2xl">{shirt.time}</p>
-            <img src={shirt.arquivo} alt={shirt.time} className="md:w-[250px] h-auto rounded-4xl" />
+            <p className="text-center text-[#828282] text-xl">Ano: {shirt.temporada}</p>
+
+            <img src={shirt.arquivo} alt={shirt.time} loading='lazy' className="md:w-[250px] h-auto rounded-4xl" />
           </div>
         ))}
       </div>
@@ -65,7 +83,7 @@ const Gallery = () => {
             <button
               key={page}
               onClick={() => changePage(page)}
-              className={`px-3 py-2 rounded ${
+              className={`px-3 py-2 rounded min-w-[40px] ${
                 currentPage === page ? 'bg-yellow-600 text-white' : 'bg-yellow-400 hover:bg-yellow-500'
               }`}
             >
