@@ -1,82 +1,81 @@
-import { useState } from 'react'
-import camisas from "../../data/imagens_formatadas.json"
+import { useState } from 'react';
+import shirts from "../../data/imagens_formatadas.json";
 
-const Galery = () => {
-  const [filtro, setFiltro] = useState("")
-  const [filtroDescricao, setFiltroDescricao] = useState("todos")
-  const [paginaAtual, setPaginaAtual] = useState(1)
-  const camisasPorPagina = 10
+const Gallery = () => {
+  const [searchText, setSearchText] = useState("");
+  const [categoryFilter, setCategoryFilter] = useState("all");
+  const [currentPage, setCurrentPage] = useState(1);
+  const shirtsPerPage = 10;
 
-  const camisasFiltradas = camisas.filter((camisa) => {
-    const correspondeTexto = camisa.time.toLowerCase().includes(filtro.toLowerCase());
-    const correspondeDescricao =
-      filtroDescricao === 'todos' || camisa.descricao === filtroDescricao;
-    return correspondeTexto && correspondeDescricao;
+  const filteredShirts = shirts.filter((shirt) => {
+    const matchesText = shirt.time.toLowerCase().includes(searchText.toLowerCase());
+    const matchesCategory = categoryFilter === "all" || shirt.descricao === categoryFilter;
+    return matchesText && matchesCategory;
   });
 
-  const totalPaginas = Math.ceil(camisasFiltradas.length / camisasPorPagina)
-  const indiceInicio = (paginaAtual - 1) * camisasPorPagina
-  const camisasVisiveis = camisasFiltradas.slice(indiceInicio, indiceInicio + camisasPorPagina)
+  const totalPages = Math.ceil(filteredShirts.length / shirtsPerPage);
+  const startIndex = (currentPage - 1) * shirtsPerPage;
+  const visibleShirts = filteredShirts.slice(startIndex, startIndex + shirtsPerPage);
 
-  const mudarPagina = (pagina) => {
-    setPaginaAtual(pagina)
-  }
+  const changePage = (page) => {
+    setCurrentPage(page);
+  };
 
   return (
     <div className="p-4 min-h-screen">
       <input
         type="text"
-        placeholder="Filtrar por time..."
-        value={filtro}
+        placeholder="Filter by team..."
+        value={searchText}
         onChange={(e) => {
-          setFiltro(e.target.value)
-          setPaginaAtual(1)
+          setSearchText(e.target.value);
+          setCurrentPage(1);
         }}
         className="p-2 border rounded mb-4 w-full text-white"
       />
 
       <div className="flex gap-2 mb-4">
-        {["todos", "brasileirao", "internacionais"].map((tipo) => (
+        {["all", "brasileirao", "internacionais"].map((type) => (
           <button
-            key={tipo}
+            key={type}
             onClick={() => {
-              setFiltroDescricao(tipo)
-              setPaginaAtual(1)
+              setCategoryFilter(type);
+              setCurrentPage(1);
             }}
             className="bg-gray-300 hover:bg-gray-400 px-4 py-2 rounded"
           >
-            {tipo.charAt(0).toUpperCase() + tipo.slice(1)}
+            {type.charAt(0).toUpperCase() + type.slice(1)}
           </button>
         ))}
       </div>
 
       <div className="grid lg:grid-cols-5 gap-4">
-        {camisasVisiveis.map((img) => (
-          <div key={img.id} className="text-center flex flex-col justify-center items-center">
-            <p className="text-center text-white text-2xl">{img.time}</p>
-            <img src={img.arquivo} alt={img.time} className="md:w-[250px] h-auto rounded-4xl" />
+        {visibleShirts.map((shirt) => (
+          <div key={shirt.id} className="text-center flex flex-col justify-center items-center">
+            <p className="text-center text-white text-2xl">{shirt.time}</p>
+            <img src={shirt.arquivo} alt={shirt.time} className="md:w-[250px] h-auto rounded-4xl" />
           </div>
         ))}
       </div>
 
       <div className="flex justify-center gap-2 mt-8 flex-wrap">
-        {[...Array(totalPaginas).keys()].map((num) => {
-          const pagina = num + 1
+        {[...Array(totalPages).keys()].map((num) => {
+          const page = num + 1;
           return (
             <button
-              key={pagina}
-              onClick={() => mudarPagina(pagina)}
+              key={page}
+              onClick={() => changePage(page)}
               className={`px-3 py-2 rounded ${
-                paginaAtual === pagina ? 'bg-yellow-600 text-white' : 'bg-yellow-400 hover:bg-yellow-500'
+                currentPage === page ? 'bg-yellow-600 text-white' : 'bg-yellow-400 hover:bg-yellow-500'
               }`}
             >
-              {pagina}
+              {page}
             </button>
-          )
+          );
         })}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Galery
+export default Gallery;
