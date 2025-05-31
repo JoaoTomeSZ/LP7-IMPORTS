@@ -1,10 +1,10 @@
-import { IoHomeSharp, IoAlertCircleOutline, IoLogoWhatsapp } from "react-icons/io5";
+import { IoHomeSharp, IoAlertCircleOutline, IoLogoWhatsapp, IoChatboxEllipsesSharp} from "react-icons/io5";
 
 const Nav = () => {
 
-    const NavItems = ["Início", "Sobre", "Contatos"]
-    const conectors = ["#inicio", "#sobre", "#contatos"]
-    const icons = [<IoHomeSharp/>, <IoAlertCircleOutline/>, <IoLogoWhatsapp/>]
+    const NavItems = ["Início", "Sobre", "Feedbacks", "Contatos", ]
+    const conectors = ["#inicio", "#sobre", "#feedback", "#contatos"]
+    const icons = [<IoHomeSharp/>, <IoAlertCircleOutline/>, <IoChatboxEllipsesSharp/>, <IoLogoWhatsapp/>]
     
   return (
     <nav className="max-w-full w-full lg:flex hidden justify-center items-center text-center">
