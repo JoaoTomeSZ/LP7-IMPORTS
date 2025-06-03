@@ -27,7 +27,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="p-4 min-h-screen">
+    <div id='galeria' className="p-4 min-h-screen scroll-mt-40">
       <input
         type="text"
         placeholder="Filter by team..."

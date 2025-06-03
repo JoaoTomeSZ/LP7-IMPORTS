@@ -41,7 +41,7 @@ const Feedbacks = () => {
       },
     ];
   return (
-    <div id="feedback" className="min-h-screen lg:mt-5 mt-40 scroll-mt-40">
+    <div id="feedback" className="min-h-screen lg:mt-5 mt-20 pt-20 scroll-mt-10 ">
       <div className="">
         <h1 className="text-[#E5A020] font-bold md:text-7xl text-5xl lg:text-8xl text-center">Feedbacks</h1>
         <FeedBackCards feedbacks={feedbacks}/>
