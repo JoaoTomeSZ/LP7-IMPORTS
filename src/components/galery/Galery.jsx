@@ -65,7 +65,7 @@ const Gallery = () => {
         </button>
       </div>
 
-      <div className="grid lg:grid-cols-5 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
         {visibleShirts.map((shirt) => (
           <div key={shirt.id} className="text-center flex flex-col justify-center items-center">
             <p className="text-center text-white text-2xl">{shirt.time}</p>

@@ -3,7 +3,7 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=" flex justify-center items-center max-h-[300px] lg:h-full px-6 py-10">
+    <div id="contatos" className=" flex justify-center items-center max-h-[300px] lg:h-full px-6 py-10">
       <div className="masx-w-full mx-auto grid grid-cols-2 gap-8 items-center">
         <div>
           <img className="w-40" src={Logo} alt="" />
